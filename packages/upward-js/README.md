@@ -53,7 +53,7 @@ const app = express();
 
 app.use(otherMiddlewaresMaybe);
 
-app.use(middleware('./my-upward-server.yml'));
+app.use(await middleware('./my-upward-server.yml'));
 
 ```
 
